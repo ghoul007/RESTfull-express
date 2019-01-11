@@ -8,4 +8,4 @@ const thingSchema = mongoose.Schema({
     userId: { type: String, require: true },
 })
 
-module.exports = mongoose.model('thing', thingSchema)
+module.exports = mongoose.model('Thing', thingSchema)
